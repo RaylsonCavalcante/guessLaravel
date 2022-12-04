@@ -1,0 +1,224 @@
+/* navbar */
+.navbar {
+    font-style: oblique;
+    background-color: #6c29d8;;
+}
+.img {
+    font-style: oblique;
+    border-radius: 50%;
+    margin-right: -3px;
+}
+
+/* body */
+body {
+    min-height: 100vh;
+    padding-bottom: 100px;
+    position: relative;
+    Background-image:linear-gradient(to bottom, #8851e0 30%, #6c29d8 80%);
+}
+
+/* home */
+.banner {
+    margin-top: 100px;
+    border-radius: 10px;
+    width: 70vw;
+    height: 130px;
+    object-fit: cover;
+    -webkit-box-shadow: 2px 4px 6px rgba(50, 50, 50, 0.77); 
+    -moz-box-shadow: 2px 4px 6px rgba(50, 50, 50, 0.77); 
+    box-shadow: 2px 4px 6px rgba(50, 50, 50, 0.77);
+}
+
+.games{
+    justify-content: center;
+    display: flex;
+    margin-top: 30px;
+}
+
+@media only screen and (max-width: 968px) {
+    .games {
+        display: block;
+    }
+}
+
+.games .card {
+    margin: 20px;
+    -webkit-box-shadow: 2px 4px 6px rgba(50, 50, 50, 0.77); 
+    -moz-box-shadow: 2px 4px 6px rgba(50, 50, 50, 0.77); 
+    box-shadow: 2px 4px 6px rgba(50, 50, 50, 0.77);
+}
+
+.times {
+    display: flex;
+    justify-content: center;
+}
+
+.times img {
+    width: 100px;
+    margin-top: 2px;
+    border-radius: 50%;
+}
+
+span {
+    margin: 20px;
+    font-size: 30px;
+}
+
+label{
+    display: flex;
+    justify-content: space-between;
+    margin-inline: 20px;
+    margin-top: -12px;
+    margin-bottom: 10px;
+    font-style: italic;
+}
+
+.table {
+    width: 80%;
+    margin-top: 5%;
+    background-color: #ffffff;
+    -webkit-box-shadow: 2px 4px 6px rgba(50, 50, 50, 0.77); 
+    -moz-box-shadow: 2px 4px 6px rgba(50, 50, 50, 0.77); 
+    box-shadow: 2px 4px 6px rgba(50, 50, 50, 0.77);
+}
+
+.table img {
+    margin-top: -5px;
+}
+
+.name, .palpite {
+    font-size: 20px;
+    font-style: italic;
+    font-family: sans-serif;
+}
+
+.btn-danger {
+    height: 30px;
+}
+
+@media only screen and (max-width: 768px) { 
+
+    .name, .palpite {
+        font-size: 15px;
+        font-style: italic;
+        font-family: sans-serif;
+    }
+}
+
+/* Guess */
+.guess {
+    justify-content: center;
+    display: flex;
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.guess .card {
+    width: 70vw;
+    -webkit-box-shadow: 2px 4px 6px rgba(50, 50, 50, 0.77); 
+    -moz-box-shadow: 2px 4px 6px rgba(50, 50, 50, 0.77); 
+    box-shadow: 2px 4px 6px rgba(50, 50, 50, 0.77);
+}
+
+.h1 {
+    position: absolute;
+    top: 15%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    justify-content: center;
+    Background-image:linear-gradient(to left, #fff 30%, #ddf3fc 80%);
+    min-width: 50%;
+    border-radius: 3px;
+    color: #6c29d8;
+    font-style: italic;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#name {
+    width: 50%;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    background-color: #bbe4c5;
+    color: rgb(0, 0, 0);
+    text-align: center;
+}
+
+.timesImg {
+    display: flex;
+    margin-inline: 10%;
+    justify-content: space-between;
+}
+
+.x{
+    margin-top: 60px;
+    font-size: 50px;
+}
+
+.timesImg img {
+    width: 200px;
+    justify-content: space-between;
+    margin-top: 2px;
+    border-radius: 50%;
+    -webkit-box-shadow: 2px 4px 6px rgba(50, 50, 50, 0.77); 
+    -moz-box-shadow: 2px 4px 6px rgba(50, 50, 50, 0.77); 
+    box-shadow: 2px 4px 6px rgba(50, 50, 50, 0.77);
+}
+
+.inputGuess {
+    display: flex;
+    justify-content: space-around;
+    margin-inline: 10%;
+}
+
+.inputGuess input {
+    width: 20%;
+    text-align: center;
+    font-size: 20px;
+}
+
+.btn-salvar{
+    margin-top: 5%;
+    width: 80%;
+}
+
+@media only screen and (max-width: 768px) { 
+    .timesImg img {
+        width: 100px;
+        height: 100px;
+        justify-content: space-between;
+        margin-top: 10%;
+        border-radius: 50%;
+    }
+
+    .h1 {
+        position: absolute;
+        top: 20%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        justify-content: center;
+        Background-image:linear-gradient(to left, #fff 30%, #ddf3fc 80%);
+        min-width: 60%;
+        border-radius: 3px;
+        color: #6c29d8;
+        font-style: italic;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+}
+
+/* footer */
+
+footer{
+    text-align: center;
+    background-color: #6c29d8;
+    color: #fff;
+    padding: 20px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+footer p {
+    margin-bottom: 0;
+}
